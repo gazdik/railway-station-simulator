@@ -1,0 +1,5 @@
+set terminal postscript eps color solid
+set size 15,2
+set output "realtimes.eps"
+load "realtimes.gpl"
+unset output

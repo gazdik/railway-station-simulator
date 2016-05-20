@@ -1,0 +1,63 @@
+set xrange [0.000000:1944.000000]
+set yrange [0.400000:4.600000]
+set autoscale x
+set xlabel "time"
+set ylabel ""
+set title ""
+set ytics ("Track_7" 1, "Track_4" 4, "Track_3" 3, "Track_8" 2)
+set key outside width +2
+set grid xtics
+set palette model RGB
+unset colorbox
+set object 1 rectangle from 307.000000, 3.6 to 309.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 2 rectangle from 314.000000, 2.6 to 314.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 3 rectangle from 340.000000, 1.6 to 340.000000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 4 rectangle from 343.000000, 3.6 to 345.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 5 rectangle from 346.000000, 2.6 to 348.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 6 rectangle from 360.000000, 0.6 to 360.000000, 1.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 7 rectangle from 366.000000, 2.6 to 368.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 8 rectangle from 367.000000, 3.6 to 369.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 9 rectangle from 403.000000, 3.6 to 407.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 10 rectangle from 427.000000, 3.6 to 429.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 11 rectangle from 440.000000, 2.6 to 440.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 12 rectangle from 455.000000, 3.6 to 469.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 13 rectangle from 488.261000, 2.6 to 490.261000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 14 rectangle from 487.000000, 3.6 to 489.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 15 rectangle from 491.000000, 2.6 to 491.261000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 16 rectangle from 498.000000, 3.6 to 500.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 17 rectangle from 437.000000, 1.6 to 744.000000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 18 rectangle from 914.000000, 2.6 to 928.413000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 19 rectangle from 925.413000, 3.6 to 927.413000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 20 rectangle from 940.000000, 1.6 to 940.000000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 21 rectangle from 943.000000, 3.6 to 945.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 22 rectangle from 946.000000, 2.6 to 948.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 23 rectangle from 960.000000, 0.6 to 960.000000, 1.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 24 rectangle from 966.000000, 2.6 to 968.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 25 rectangle from 967.000000, 3.6 to 969.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 26 rectangle from 1003.160000, 3.6 to 1007.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 27 rectangle from 1027.000000, 3.6 to 1029.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 28 rectangle from 1040.000000, 2.6 to 1040.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 29 rectangle from 1055.000000, 3.6 to 1069.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 30 rectangle from 1071.000000, 2.6 to 1073.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 31 rectangle from 1087.000000, 3.6 to 1089.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 32 rectangle from 1091.000000, 2.6 to 1091.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 33 rectangle from 1098.000000, 3.6 to 1100.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 34 rectangle from 1037.000000, 1.6 to 1344.000000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 35 rectangle from 1507.000000, 3.6 to 1509.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 36 rectangle from 1514.000000, 2.6 to 1514.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 37 rectangle from 1543.000000, 3.6 to 1545.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 38 rectangle from 1546.000000, 2.6 to 1548.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 39 rectangle from 1555.310000, 1.6 to 1555.310000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 40 rectangle from 1560.000000, 0.6 to 1560.000000, 1.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 41 rectangle from 1566.000000, 2.6 to 1568.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 42 rectangle from 1567.000000, 3.6 to 1569.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 43 rectangle from 1603.000000, 3.6 to 1607.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 44 rectangle from 1629.970000, 3.6 to 1631.970000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 45 rectangle from 1640.000000, 2.6 to 1640.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 46 rectangle from 1655.000000, 3.6 to 1669.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 47 rectangle from 1671.000000, 2.6 to 1673.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 48 rectangle from 1687.000000, 3.6 to 1689.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 49 rectangle from 1691.000000, 2.6 to 1691.000000, 3.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 50 rectangle from 1698.000000, 3.6 to 1700.000000, 4.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+set object 51 rectangle from 1637.000000, 1.6 to 1944.000000, 2.4 fillcolor rgb "#FF9A00" fillstyle solid 0.8
+plot -1 title "Reserved_track" with lines linecolor rgb "#FF9A00"  linewidth 6
